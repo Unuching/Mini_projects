@@ -27,7 +27,7 @@ body {
   flex: 0.5;
   margin: 5px;
   position: relative;
-  transition: flex 0.4s ease-in-out;
+  transition: flex 1s ease-in-out;
 }
 .cards h3 {
   display: block;
