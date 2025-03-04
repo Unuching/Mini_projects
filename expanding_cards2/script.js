@@ -1,11 +1,14 @@
-const myCards = document.querySelectorAll("cards");
+const myCards = document.querySelectorAll(".cards");
 
-myCards.forEach((cards) => {
-  cards.addEventListener("click", () => {
+myCards.forEach((card) => {
+  card.addEventListener("click", () => {
     removeClasses();
-    cards.classList.add("active");
+    card.classList.add("active");
   });
 });
+
 function removeClasses() {
-  cards.classList.romove("active");
+  myCards.forEach((card) => {
+    card.classList.remove("active");
+  });
 }
