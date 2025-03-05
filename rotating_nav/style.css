@@ -11,3 +11,10 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+}
+.container.show-nav {
+  transform: rotate(-20deg);
+}
