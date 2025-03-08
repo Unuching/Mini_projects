@@ -14,6 +14,10 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.container {
+  border: 5px solid black;
+  border-radius: 5px;
+}
 .search {
   position: relative;
   height: 50px;
@@ -38,5 +42,14 @@ body {
   height: 50px;
   width: 50px;
   transition: transform 0.3s ease;
-  
+}
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+.search.active .input {
+  width: 250px;
+}
+.search.active .btn {
+  transform: translateX(198px);
 }
