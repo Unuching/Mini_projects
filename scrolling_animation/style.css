@@ -16,7 +16,7 @@ body {
 h1 {
   margin: 10px;
 }
-.box{
+.box {
   background-color: steelblue;
   color: #fff;
   display: flex;
@@ -26,4 +26,13 @@ h1 {
   height: 200px;
   margin: 10px;
   border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(200%);
+  transition: transform 0.5s ease;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-200%);
+}
+.box.show {
+  transform: translate(0);
 }
