@@ -16,13 +16,14 @@ body {
   margin: 0;
 }
 h3 {
+  text-align: center;
   color: #fff;
   margin: 10px 0 20px;
 }
 .container {
   max-width: 500px;
 }
-.textArea {
+#textArea {
   border: none;
   display: block;
   width: 100%;
@@ -31,9 +32,8 @@ h3 {
   padding: 10px;
   margin: 0 0 20px;
   font-size: 16px;
-
 }
-.tag{
+.tag {
   background-color: #f0932b;
   color: #fff;
   border-radius: 50px;
@@ -41,5 +41,7 @@ h3 {
   margin: 0 5px 10px 0;
   font-size: 14px;
   display: inline-block;
-
+}
+.tag.highlight {
+  background-color: #273c75;
 }
