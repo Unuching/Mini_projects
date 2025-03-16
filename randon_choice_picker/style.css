@@ -19,3 +19,8 @@ h3 {
   color: #fff;
   margin: 10px 0 20px;
 }
+.container {
+  max-width: 500px;
+}
+.textArea {
+}
