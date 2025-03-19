@@ -4,7 +4,16 @@ const percentage = document.getElementById("percentage");
 const remained = document.getElementById("remained");
 
 smallCups.forEach((cup, idx) => {
-  console.log(idx);
-
-  cup.addEventListener("click", () => {});
+  cup.addEventListener("click", () => {
+    Highlight_cups(idx);
+  });
 });
+function Highlight_cups(idx) {
+  smallCups.forEach((cup, idx2) => {
+    if (idx2 <= idx) {
+      cup.classList.add("full");
+    } else {
+      cup.classList.remove("full");
+    }
+  });
+}
