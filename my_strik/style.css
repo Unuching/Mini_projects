@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+.my_circle {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.fill {
+  background-color: blue;
+}
